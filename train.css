@@ -1,0 +1,78 @@
+.container{
+    margin: 20px;
+}
+
+.jumbotron {
+    position : relative;
+    background : url("../images/night-train.jpg");
+    background-position: 0% 55%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Orbitron', sans-serif;
+    color : gold;
+    letter-spacing: .45em;
+    text-shadow: 4px 3px grey;
+}
+
+#portfolio{
+    position: absolute;
+    top : 10px;
+    left : 40px;
+    border : none;
+    background : transparent;
+    color : hsl(51, 91%, 54%);
+    font-size: 25px;
+    letter-spacing: .35em;
+    font-weight: bold;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+
+a {
+    color : gold;
+    text-decoration: none;    
+}
+
+.card{
+    border : solid;
+    border-radius: 10px;
+    box-shadow: 0 7px 6px -6px;
+}
+
+#trainTable, #form-input{
+    font-family: 'Exo 2', sans-serif;
+}
+
+.thead-default{
+    background-color : lightgrey; 
+}
+.tableBody{
+    height : 100px;
+    overflow : auto;
+}
+
+.panel, .card-heading {
+    padding-left : 10px;
+    background-color : gold;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: .45em;
+}
+
+.form-control, .tableRow {
+    box-shadow : inset 1px 0 10px;
+}
+
+.btn{
+    background-color : gold; 
+    cursor: pointer;
+    width : 100%;
+    opacity : 0.79;
+    border : none;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: .45em;
+    box-shadow: 0 8px 6px -6px grey;
+}
+.btn:hover{
+    opacity: 1;
+}
